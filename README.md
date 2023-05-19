@@ -1,1 +1,1 @@
-![RPReplay_Final1682705077](https://user-images.githubusercontent.com/86670875/235221982-ce67529b-8bee-4814-9324-6eafaedb773f.gif)
+![dev garinasset com_(iPad Air)](https://user-images.githubusercontent.com/86670875/235149599-143accb8-22c3-42aa-b0fc-8000fdb247a3.png)

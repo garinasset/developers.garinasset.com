@@ -8,7 +8,7 @@ var aboutAnswer6 = document.getElementById("aboutAnswer6");
 var lastInput = document.getElementById("lastInput");
 
 var aboutQuestionText = "Who Am I ?";
-var aboutAnswerText1 = "Website for Devloper in GARINASSET.COM .";
+var aboutAnswerText1 = "Website for Developers in GARINASSET.COM .";
 var aboutAnswerText2 = "What We Have Done and Are Doing :";
 var aboutAnswerText3 = " * GARINASSET.COM";
 var aboutAnswerText4 = " * DATA.GARINASSET.COM";
