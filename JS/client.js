@@ -21,22 +21,22 @@ client_xhr.onreadystatechange = function () {
             var client_title = document.getElementById("client-title");
             var client_output_1 = document.getElementById("client-output-1");
             var client_output_2 = document.getElementById("client-output-2");
-            var client_output_3 = document.getElementById("client-output-3");
-            var client_output_4 = document.getElementById("client-output-4");
+            // var client_output_3 = document.getElementById("client-output-3");
+            // var client_output_4 = document.getElementById("client-output-4");
 
             var client_titleText = "客户端";
-            var client_output_Text1 = "IP地址";
+            var client_output_Text1 = "IP Address";
             var client_output_Text2 = client.data.host;
-            var client_output_Text3 = "端口";
-            var client_output_Text4 = String(client.data.port);
+            // var client_output_Text3 = "端口";
+            // var client_output_Text4 = String(client.data.port);
 
             generateText(client_titleText, client_title, function () {
                 generateText(client_output_Text1, client_output_1, function () {
                     generateText(client_output_Text2, client_output_2, function () {
-                        generateText(client_output_Text3, client_output_3, function () {
-                            generateText(client_output_Text4, client_output_4, function () {
-                            });
-                        });
+                        // generateText(client_output_Text3, client_output_3, function () {
+                        //     generateText(client_output_Text4, client_output_4, function () {
+                        //     });
+                        // });
                     });
                 });
             });
