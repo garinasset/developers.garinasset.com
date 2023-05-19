@@ -47,8 +47,8 @@ headers_xhr.onreadystatechange = function () {
             // var headers_output_26 = document.getElementById("headers-output-26");
             // var headers_output_27 = document.getElementById("headers-output-27");
             // var headers_output_28 = document.getElementById("headers-output-28");
-            var headers_output_29 = document.getElementById("headers-output-29");
-            var headers_output_30 = document.getElementById("headers-output-30");
+            // var headers_output_29 = document.getElementById("headers-output-29");
+            // var headers_output_30 = document.getElementById("headers-output-30");
 
             var headers_titleText = "HTTP头部";
             // var headers_output_Text_1 = "目标服务器的主机名和端口号";
@@ -79,8 +79,8 @@ headers_xhr.onreadystatechange = function () {
             // var headers_output_Text_26 = headers.data.accept_encoding || 'null';
             // var headers_output_Text_27 = "浏览器可以接受的语言类型和优先级";
             // var headers_output_Text_28 = headers.data.accept_language || 'null';
-            var headers_output_Text_29 = "Cookie";
-            var headers_output_Text_30 = headers.data.cookie || 'null';
+            // var headers_output_Text_29 = "Cookie";
+            // var headers_output_Text_30 = headers.data.cookie || 'null';
 
 
             generateText(headers_titleText, headers_title, function () {
@@ -112,10 +112,10 @@ headers_xhr.onreadystatechange = function () {
                                                                 //                                                     generateText(headers_output_Text_26, headers_output_26, function () {
                                                                 //                                                         generateText(headers_output_Text_27, headers_output_27, function () {
                                                                 //                                                             generateText(headers_output_Text_28, headers_output_28, function () {
-                                                                                                                                generateText(headers_output_Text_29, headers_output_29, function () {
-                                                                                                                                    generateText(headers_output_Text_30, headers_output_30, function () {
-                                                                                                                                    });
-                                                                                                                                });
+                                                                                                                                // generateText(headers_output_Text_29, headers_output_29, function () {
+                                                                                                                                //     generateText(headers_output_Text_30, headers_output_30, function () {
+                                                                                                                                //     });
+                                                                                                                                // });
                                                             //                                                                 });
                                                             //                                                             });
                                                             //                                                         });
