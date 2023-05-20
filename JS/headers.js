@@ -4,8 +4,9 @@ var headers_xhr = new XMLHttpRequest();
 // 指定请求的方法和 URL
 headers_xhr.open('GET', 'https://developers.garinasset.com/gagarin/v1/request/headers');
 
-// 设置请求头，用于告诉服务器返回 JSON 格式的数据
-headers_xhr.setRequestHeader('Accept', 'application/json');
+// 设置请求头
+headers_xhr.setRequestHeader('Accept', '*/*');
+headers_xhr.setRequestHeader('Accept-Encoding', '*');
 
 // 发送请求
 headers_xhr.send();
