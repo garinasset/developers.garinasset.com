@@ -168,5 +168,5 @@ function generateText(text, element, callback) {
                 callback();
             }
         }
-    }, 5);
+    }, 3);
 }
