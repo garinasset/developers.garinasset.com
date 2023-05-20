@@ -45,8 +45,8 @@ headers_xhr.onreadystatechange = function () {
             // var headers_output_24 = document.getElementById("headers-output-24");
             // var headers_output_25 = document.getElementById("headers-output-25");
             // var headers_output_26 = document.getElementById("headers-output-26");
-            // var headers_output_27 = document.getElementById("headers-output-27");
-            // var headers_output_28 = document.getElementById("headers-output-28");
+            var headers_output_27 = document.getElementById("headers-output-27");
+            var headers_output_28 = document.getElementById("headers-output-28");
             // var headers_output_29 = document.getElementById("headers-output-29");
             // var headers_output_30 = document.getElementById("headers-output-30");
 
@@ -77,8 +77,8 @@ headers_xhr.onreadystatechange = function () {
             // var headers_output_Text_24 = headers.datareferer || 'null';
             // var headers_output_Text_25 = "浏览器可以接受的压缩算法";
             // var headers_output_Text_26 = headers.data.accept_encoding || 'null';
-            // var headers_output_Text_27 = "浏览器可以接受的语言类型和优先级";
-            // var headers_output_Text_28 = headers.data.accept_language || 'null';
+            var headers_output_Text_27 = "Accept Language";
+            var headers_output_Text_28 = headers.data.accept_language || 'null';
             // var headers_output_Text_29 = "Cookie";
             // var headers_output_Text_30 = headers.data.cookie || 'null';
 
@@ -110,14 +110,14 @@ headers_xhr.onreadystatechange = function () {
                                                                 //                                             generateText(headers_output_Text_24, headers_output_24, function () {
                                                                 //                                                 generateText(headers_output_Text_25, headers_output_25, function () {
                                                                 //                                                     generateText(headers_output_Text_26, headers_output_26, function () {
-                                                                //                                                         generateText(headers_output_Text_27, headers_output_27, function () {
-                                                                //                                                             generateText(headers_output_Text_28, headers_output_28, function () {
+                                                                                                                        generateText(headers_output_Text_27, headers_output_27, function () {
+                                                                                                                            generateText(headers_output_Text_28, headers_output_28, function () {
                                                                                                                                 // generateText(headers_output_Text_29, headers_output_29, function () {
                                                                                                                                 //     generateText(headers_output_Text_30, headers_output_30, function () {
                                                                                                                                 //     });
                                                                                                                                 // });
-                                                            //                                                                 });
-                                                            //                                                             });
+                                                                                                                            });
+                                                                                                                        });
                                                             //                                                         });
                                                             //                                                     });
                                                             //                                                 });
