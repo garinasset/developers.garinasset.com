@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.3rem;
+}
+
+.content {
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+.copyright {
+    text-align: left;
+    font-size: 0.5rem;
+}
