@@ -5,8 +5,8 @@ var headers_xhr = new XMLHttpRequest();
 headers_xhr.open('GET', 'https://developers.garinasset.com/gagarin/v1/request/headers');
 
 // 设置请求头
-headers_xhr.setRequestHeader('Accept', '*/*');
-headers_xhr.setRequestHeader('Accept-Encoding', '*');
+// headers_xhr.setRequestHeader('Accept', '*/*');
+// headers_xhr.setRequestHeader('Accept-Encoding', '*');
 
 // 发送请求
 headers_xhr.send();
