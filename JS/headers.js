@@ -31,8 +31,8 @@ headers_xhr.onreadystatechange = function () {
             // var headers_output_10 = document.getElementById("headers-output-10");
             var headers_output_11 = document.getElementById("headers-output-11");
             var headers_output_12 = document.getElementById("headers-output-12");
-            // var headers_output_13 = document.getElementById("headers-output-13");
-            // var headers_output_14 = document.getElementById("headers-output-14");
+            var headers_output_13 = document.getElementById("headers-output-13");
+            var headers_output_14 = document.getElementById("headers-output-14");
             // var headers_output_15 = document.getElementById("headers-output-15");
             // var headers_output_16 = document.getElementById("headers-output-16");
             // var headers_output_17 = document.getElementById("headers-output-17");
@@ -43,8 +43,8 @@ headers_xhr.onreadystatechange = function () {
             // var headers_output_22 = document.getElementById("headers-output-22");
             // var headers_output_23 = document.getElementById("headers-output-23");
             // var headers_output_24 = document.getElementById("headers-output-24");
-            // var headers_output_25 = document.getElementById("headers-output-25");
-            // var headers_output_26 = document.getElementById("headers-output-26");
+            var headers_output_25 = document.getElementById("headers-output-25");
+            var headers_output_26 = document.getElementById("headers-output-26");
             var headers_output_27 = document.getElementById("headers-output-27");
             var headers_output_28 = document.getElementById("headers-output-28");
             // var headers_output_29 = document.getElementById("headers-output-29");
@@ -57,14 +57,14 @@ headers_xhr.onreadystatechange = function () {
             // var headers_output_Text_4 = headers.data.connection || 'null';
             // var headers_output_Text_5 = "客户端的用户代理类型和版本信息";
             // var headers_output_Text_6 = headers.data.sec_ch_ua || 'null';
-            // var headers_output_Text_7 = "客户端可以接受的媒体类型";
-            // var headers_output_Text_8 = headers.data.accept || 'null';
+            // var headers_output_Text_7 = "客户端所在的平台";
+            // var headers_output_Text_8 = headers.data.sec_ch_ua_platform || 'null';
             // var headers_output_Text_9 = "客户端是否为移动设备";
             // var headers_output_Text_10 = headers.data.sec_ch_ua_mobile || 'null';
             var headers_output_Text_11 = "User Agent";
             var headers_output_Text_12 = headers.data.user_agent || 'null';
-            // var headers_output_Text_13 = "客户端所在的平台";
-            // var headers_output_Text_14 = headers.data.sec_ch_ua_platform || 'null';
+            var headers_output_Text_13 = "Accept";
+            var headers_output_Text_14 = headers.data.accept || 'null';
             // var headers_output_Text_15 = "发出请求的源（origin）地址";
             // var headers_output_Text_16 = headers.data.origin || 'null';
             // var headers_output_Text_17 = "请求的上下文环境";
@@ -75,8 +75,8 @@ headers_xhr.onreadystatechange = function () {
             // var headers_output_Text_22 = headers.data.sec_fetch_dest || 'null';
             // var headers_output_Text_23 = "用户从哪个页面链接到当前页面";
             // var headers_output_Text_24 = headers.datareferer || 'null';
-            // var headers_output_Text_25 = "浏览器可以接受的压缩算法";
-            // var headers_output_Text_26 = headers.data.accept_encoding || 'null';
+            var headers_output_Text_25 = "Accept Encoding";
+            var headers_output_Text_26 = headers.data.accept_encoding || 'null';
             var headers_output_Text_27 = "Accept Language";
             var headers_output_Text_28 = headers.data.accept_language || 'null';
             // var headers_output_Text_29 = "Cookie";
@@ -96,8 +96,8 @@ headers_xhr.onreadystatechange = function () {
                 //                                     generateText(headers_output_Text_10, headers_output_10, function () {
                                                         generateText(headers_output_Text_11, headers_output_11, function () {
                                                             generateText(headers_output_Text_12, headers_output_12, function () {
-                                                                // generateText(headers_output_Text_13, headers_output_13, function () {
-                                                                //     generateText(headers_output_Text_14, headers_output_14, function () {
+                                                                generateText(headers_output_Text_13, headers_output_13, function () {
+                                                                    generateText(headers_output_Text_14, headers_output_14, function () {
                                                                 //         generateText(headers_output_Text_15, headers_output_15, function () {
                                                                 //             generateText(headers_output_Text_16, headers_output_16, function () {
                                                                 //                 generateText(headers_output_Text_17, headers_output_17, function () {
@@ -108,8 +108,8 @@ headers_xhr.onreadystatechange = function () {
                                                                 //                                     generateText(headers_output_Text_22, headers_output_22, function () {
                                                                 //                                         generateText(headers_output_Text_23, headers_output_23, function () {
                                                                 //                                             generateText(headers_output_Text_24, headers_output_24, function () {
-                                                                //                                                 generateText(headers_output_Text_25, headers_output_25, function () {
-                                                                //                                                     generateText(headers_output_Text_26, headers_output_26, function () {
+                                                                                                                generateText(headers_output_Text_25, headers_output_25, function () {
+                                                                                                                    generateText(headers_output_Text_26, headers_output_26, function () {
                                                                                                                         generateText(headers_output_Text_27, headers_output_27, function () {
                                                                                                                             generateText(headers_output_Text_28, headers_output_28, function () {
                                                                                                                                 // generateText(headers_output_Text_29, headers_output_29, function () {
@@ -118,8 +118,8 @@ headers_xhr.onreadystatechange = function () {
                                                                                                                                 // });
                                                                                                                             });
                                                                                                                         });
-                                                            //                                                         });
-                                                            //                                                     });
+                                                                                                                    });
+                                                                                                                });
                                                             //                                                 });
                                                             //                                             });
                                                             //                                         });
@@ -130,8 +130,8 @@ headers_xhr.onreadystatechange = function () {
                                                             //                     });
                                                             //                 });
                                                             //             });
-                                                            //         });
-                                                            //     });
+                                                                    });
+                                                                });
                                                             });
                                                         });
                 //                                     });
