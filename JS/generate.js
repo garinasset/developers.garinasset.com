@@ -11,7 +11,7 @@ var aboutQuestionText = "Who Am I ?";
 var aboutAnswerText1 = "Website for Developers in GARINASSET.COM .";
 var aboutAnswerText2 = "What We Have Done and Are Doing :";
 var aboutAnswerText3 = " * GARINASSET.COM";
-var aboutAnswerText4 = " * DATA.GARINASSET.COM";
+var aboutAnswerText4 = " * WWW.GARINASSET.COM";
 var aboutAnswerText5 = " * etc···";
 var aboutAnswerText6 = "We Will Do More Great Things in The Future !";
 
